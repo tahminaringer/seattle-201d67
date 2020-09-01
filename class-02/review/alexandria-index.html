@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta Data -->
+  <title> Class 201 Demo!</title>
+  <!--How to style select elements-->
+  <style>
+    h1 {
+      color: pink;
+      border-style: dotted;
+
+
+    }
+
+
+    #p {
+      font-size: 50px;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Displayed Content-->
+  <main>
+    <h1>Class 1 lab</h1>
+  </main>
+  <h2>Sub heading level 2</h2>
+  <h3>Sub heading level 3</h3>
+  <!--Inside of any tag there can be an Attribute.-->
+  <h4 style="color: powderblue; background-color:blue;">Sub heading level 4</h4>
+  <h5>Sub heading level 5</h5>
+  <h6>Last Sub heading level 6</h6>
+
+  <p id="p" style="color: red;background-color:chartreuse;">
+    What is your name?<br></p>
+  <p style="font-size: 50px;background-color:coral;">
+    What is your favorite animal?<br></p>
+  <p style="font-size: 20px; color:darkblue;">
+    What is your favorite color?<br></p>
+  <p style="background-color:gold;">
+    What is your favorite season?
+  </p>
+
+  <ul>
+    <li>Unordered lists. Dots or ticks for lists</li>
+  </ul>
+
+  <ol>
+    <li>Ordered lists. Mostly used with numbers.</li>
+  </ol>
+  <footer>
+    <a href="README.md"> Back</a>
+    <h6>
+      Made by alex.
+    </h6>
+  </footer>
+
+  <script>
+    //Declaring a variable using Var
+    //The equals sign is gets. put something in one side get something out of the other side.
+    // Here is a string- ( a sequence of natural language characters. Not for the computer but for human eyes)
+    var user = "Here is some javascript";
+    // getting input from a user
+    // prompt pops up to the user. 
+    user = prompt('what is your name?');
+    animal = prompt('what is your favorite animal?');
+    color = prompt('what is your favorite color?');
+    season = prompt('what is your favorite season?');
+    // plus sign is to concatinate
+    console.log('What is in a name?');
+    console.log('What is your spirit animal?');
+    console.log("Colors of the wind....");
+    console.log("Seasons of change..")
+    alert('Welcome, ' + user);
+    alert(animal + '? Cool!');
+    alert(color + '? Awesome Sauce!');
+    alert(season + '? Sweet!');
+    //console.log shows up only in the console
+    alert(user + ' ' + animal + ' ' + color + ' ' + season);
+
+  </script>
+</body>
+
+</html>

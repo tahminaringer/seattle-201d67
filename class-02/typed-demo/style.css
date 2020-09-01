@@ -1,0 +1,23 @@
+#site-title {
+  color: red;
+}
+
+body {
+  height: calc(100vh - 300px);
+}
+
+header {
+  height: 200px;
+  border-style: dotted;
+}
+
+main {
+  height: 100%;
+  border-style: dashed;
+}
+
+footer {
+  height: 100px;
+  border-style: solid;
+}
+
