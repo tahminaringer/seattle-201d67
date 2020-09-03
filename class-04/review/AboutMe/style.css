@@ -1,0 +1,25 @@
+#all-about-me {
+    color: blue;
+    font-size: 40px;
+    border-style: dashed;
+    background-color: brown;
+}
+
+.text {
+    color: darkblue;
+    background-color: pink;
+ 
+}
+.copy-right{
+    color:black;
+    height:100px;
+    border-style: dotted;
+    background-color:purple;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/e4/aa/7c/e4aa7c6e21b32fd6b97afd495fe4e338.png);
+}
+section{
+   font-size-adjust: initial;
+
+}

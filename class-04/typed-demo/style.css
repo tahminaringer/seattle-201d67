@@ -1,0 +1,33 @@
+body {
+  height: 200vh;
+}
+
+#one {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  /* right: 0; */
+}
+
+#two {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#container {
+  border: thin blue solid;
+}
+
+div div {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: thin red solid;
+}
+
+.block {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+}
