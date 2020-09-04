@@ -1,0 +1,42 @@
+body  {
+  background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9B/production/_111434467_gettyimages-1143489763.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  border-style: solid;
+  color: grey;
+}
+
+div span {
+  background-color: blue;
+}
+
+div + span {
+  background-color: red;
+}
+
+/* Any span that is after a div */
+div ~ span {
+  background-color: violet;
+}
+
+input[type=button] {
+  background-color: indigo;
+}
+
+input:hover {
+  background-color: blue;
+}
+
+div::before{
+  content: "test 7";
+  color: red;
+  display: block;
+}
+
+div::after {
+  content:  "test 6";
+  color: yellow;
+}
