@@ -80,12 +80,14 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2, 3, 4]; //eslint-disable-line sumArr
 
 function sumArray(sumArr) { //eslint-disable-line
-   var sum = sumArr.reduce(function(a, b){
-      return a + b;
-  }, 0);
-   console.log(sum)
-   var answer = sumArr + " was passed in as an array of numbers, and " + sum + " is their sum."
-   return [sum, answer];
+   var a = sumArr[0];
+   var b = sumArr[1];
+   var c = sumArr[2];
+   var sumOfTwo = sum(a, b)[0];
+   var sumOfThree = sum(sumOfTwo, c)[0];
+   // console.log(sum)
+   var answer = sumArr + " was passed in as an array of numbers, and " + sumOfThree + " is their sum."
+   return [sumOfThree, answer];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -107,12 +109,21 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { //eslint-disable-line
+var numArray = [2, 3, 4]
 
+function multiplyArray(multArr) { //eslint-disable-line
+   var a = multArr[0];
+   var b = multArr[1];
+   var c = multArr[2];
+   var productOfTwo = multiply(a, b)[0];
+   var productOfThree = multiply(productOfTwo, c)[0];
+   // console.log(productOfTwo)
+   var answer = "The numbers " + multArr + " have a product of " + productOfThree + ".";
+   return [productOfThree, answer];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
